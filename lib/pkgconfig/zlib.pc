@@ -1,0 +1,13 @@
+prefix=/Users/hymaroshinigompa/Downloads/ml_End_to_End
+exec_prefix=/Users/hymaroshinigompa/Downloads/ml_End_to_End
+libdir=/Users/hymaroshinigompa/Downloads/ml_End_to_End/lib
+sharedlibdir=/Users/hymaroshinigompa/Downloads/ml_End_to_End/lib
+includedir=/Users/hymaroshinigompa/Downloads/ml_End_to_End/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
